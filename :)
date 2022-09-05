@@ -38,4 +38,27 @@ for key in our_post:
         continue
     print("{}의 집에는 {}개의 냄비가 있다.".format(key,our_pots[key])
     
-(8)
+(8)[for]
+for i in range(2,9+1):
+    for j in range(1,9+1):
+        print("{}*{} = {}".format(i,j,i*j))
+        
+(9)[for]
+i = 2
+while i <= 9:
+    j = 1
+    i+=1
+    while j<=9:
+        print("{}*{} = {}".format(i,j,i*j))
+        j+=1
+
+
+
+#wryyyyyY!!!! kono DIO daaaaaaaaaaaaaaa
+#muda muda muda muda muda muda muda!!!!!!!
+
+#yaro.. star platina the world!!!!
+#ora ora ora ora ora ora!!!!!!!
+#yare yare da je...
+
+(10)
