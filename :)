@@ -1,7 +1,41 @@
 (1)[break , continue]
 
-
 for i in range(1,9+1):
     if i == 7:
         break
     print("2 x {} = {}".format(i,2*i))
+
+(2)[break , continue]
+
+x = 3
+while x<6:
+    print(x)
+    (무한루프)
+    
+(3)[for(딕셔너리)]
+for our_pots in {"hs":10, "ab":30,"yu":"none"}:
+    print(our_pots)
+
+(4)[for(딕셔너리)]
+our_pots={"hs":10, "ab":30,"yu":"none"}
+for key in our_pots:
+    print(our_pots[key])
+    
+(5)[for(딕셔너리)]
+our_pots={"hs":10, "ab":30,"yu":"none"}
+for key in our_pots:
+    print(key,"의 집에는",our_pots[key],"개의 냄비가 있다.")
+    
+(6)[for(딕셔너리+포멧)]
+our_pots={"hs":10, "ab":30,"yu":"none"}
+for key in our_pots:
+    print("{}의 집에는 {}개의 냄비가 있다.".format(key,our_pots[key]))
+
+(7)[for(딕셔너리+포멧+3개이상만)]
+our_pots={"hs":10, "ab":30,"yu":"none"}
+for key in our_post:
+    if our_pots[key]<3:
+        continue
+    print("{}의 집에는 {}개의 냄비가 있다.".format(key,our_pots[key])
+    
+(8)
