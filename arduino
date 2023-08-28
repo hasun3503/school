@@ -1,0 +1,44 @@
+
+#include <stdio.h>
+int a = 0;
+int b = 0;
+void ip(){
+    int k = 0;
+    if(a>0){
+        b++;
+        k=a+b;
+    }else{
+        b--;
+        k=a+b;
+    }
+         
+    printf("%d \n", a);
+    
+}
+void p(){
+    if(a>b){
+        a = a+b;
+    }
+    else{
+        a=a-b;
+    }
+    printf("%d \n", a);
+}
+void t(){
+    if(a!=b){
+        a=a+b;
+    }
+        
+    printf("%d \n", a);
+    
+}
+
+int main()
+{
+    scanf("%d %d", &a, &b);
+    ip();
+    p();
+    t();
+    return 0;
+    
+}
