@@ -7,15 +7,15 @@ int main()
     scanf("%d", &num);
     
     switch(num) {
-    case 0:printf("F학점 입니다.");
+    case 20:printf("F학점 입니다.");
         break;
-    case 20:printf("E학점 입니다.");
+    case 21 ... 40:printf("E학점 입니다.");
         break;
-    case 40:printf("D학점 입니다.");
+    case 41 ... 60:printf("D학점 입니다.");
         break;
-    case 60:printf("C학점 입니다.");
+    case 61 ... 80:printf("C학점 입니다.");
         break;
-    case 80:printf("B학점 입니다.");
+    case 81 ... 99:printf("B학점 입니다.");
         break;
     case 100:printf("A학점 입니다.");
         break;
