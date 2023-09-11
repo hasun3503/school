@@ -5,6 +5,7 @@ int main()
     int num =0;
     printf("다음 중 통일신라 시대의 도읍은 어디인지 알맞은 정답을 찾아 입력하시오.\n");
     printf(" 1. 평양 \n 2. 서라벌 \n 3. 개성 \n 4. 한양 \n 5. 전주 \n");
+    printf("정답은 몇번입니까?");
     scanf("%d", &num);
     
     switch(num) {
